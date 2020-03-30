@@ -1,0 +1,215 @@
+/* The Universal Selector has been used here to cancel the browser default margins and */
+/* padding for every page element. This ensures that only assigned */
+/* margin and padding values are implemented when viewing pages. */
+* {
+	margin:0;
+	padding:0;
+}
+
+/* Background Colours */
+body, header {
+	background-color:rgb(213,129,29);
+}
+
+nav, footer {
+	background-color:rgb(103,63,48);
+}
+
+main {
+	background-color:rgb(206,159,138);
+}
+
+/* Text Properties */
+h1 {
+	color:rgb(103,63,48);
+}
+
+footer a {
+	color:rgb(206,159,138);
+}
+
+/* Image Properties */
+#imageBanner {
+	width:550px;
+	height:90px;
+}
+
+#studentImage {
+	width:160px;
+	height:120px;
+}
+
+#italianFlag {
+	width:75px;
+	height:75px;
+}
+
+img.italianImages {
+	width:140px;
+	height:140px;
+}
+
+img.spices {
+	width:180px;
+	height:150px;
+}
+
+img.stirFryIngredient {
+	width:290px;
+	height:150px;
+}
+
+img.stirFry {
+	width:200px;
+	height:150px;
+}
+
+img.thaiIngredient {
+	width:160px;
+	height:120px;
+}
+
+img.thaiCurries {
+	width:200px;
+	height:150px;
+	float:right;
+}
+
+/* Margins */
+body {
+	margin:auto;
+}
+
+main {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+h1 {
+	margin-top:50px;
+	margin-left:30px;
+}
+
+h2 {
+	margin-bottom:10px;
+}
+
+h3 {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+main ol, main ul {
+	margin-left:20px;
+}
+
+#studentImage {
+	margin-right:20px;
+	margin-bottom:20px;
+}
+
+img.italianImages {
+	margin-top:50px;
+	margin-right:40px;
+}
+
+div.survey {
+	margin-right:50px;
+}
+
+/* Padding */
+section {
+	padding:10px;
+}
+
+/* Positioning (Float, Display and Clear) */
+header, nav, main, footer {
+	clear:both;
+}
+
+section {
+	clear:both;
+}
+
+h1 {
+	float:left;
+}
+
+#imageBanner {
+	float:right;
+}
+
+#studentImage {
+	float:left;
+}
+
+#italianFlag {
+	float:right;
+}
+
+#leftDiv {
+	float:left;
+}
+
+#rightDiv {
+	float:right;
+}
+
+section.spices {
+	display:none;
+}
+
+/* Element Sizes */
+body {
+	width:900px;
+}
+
+header, footer {
+	height:90px;
+}
+
+nav {
+	height:38px;
+}
+
+#leftDiv.thaiIngredient {
+	width:180px;
+}
+
+#rightDiv.thaiIngredient {
+	width:700px;
+}
+
+#leftDiv.thaiCurries {
+	width:670px;
+}
+
+div.survey {
+	width:300px;
+}
+
+div.stirFry {
+	width:650px;
+}
+
+/* Navigation List Properties */
+nav ul {
+	list-style-type:none;
+}
+
+nav ul li {
+	float:left;
+	width:120px;
+	text-align:center;
+}
+
+nav a {
+	color:black;
+	display:block;
+	padding:10px;
+}
+
+nav a:hover {
+	background-color:rgb(213,129,29);
+	color:white;
+}
